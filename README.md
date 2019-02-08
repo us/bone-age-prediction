@@ -4,7 +4,7 @@
 .
 +-- flow_dataframe.py	
 +-- train.py
-+-- rsna-bone-age
++-- rsna-bone-age      <-------------- downloaded dataset
 |   +-- boneage-test-dataset.csv
 |   +-- boneage-train-dataset.csv
 |   +-- boneage-train-dataset
@@ -47,4 +47,7 @@ That is consisting of 14 236 hand radiographs (12 611 training set, 1425 validat
 
    `python train.py`
 
-
+## to-do's
+- [ ] Adding test.
+- [ ] Add model's accurancy table.
+- [ ] Rewrite with pytorch.
